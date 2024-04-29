@@ -1,0 +1,13 @@
+name: mujoco
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - mujoco # https://github.com/google-deepmind/mujoco/blob/main/python/README.md
+  - tk #tkinter, python3-tk
+  - pip:
+    - numpy-quaternion

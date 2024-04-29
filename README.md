@@ -12,11 +12,21 @@ Robot models are in [mujoco_panda/models](mujoco_panda/models).
 
 To use all functionalities of the provided library, the following dependencies have to be met.
 
-- [mujoco_py](https://github.com/openai/mujoco-py)
+<!-- - [mujoco_py](https://github.com/openai/mujoco-py)
 - numpy (`pip install numpy`)
-- scipy (`pip install scipy`)
-- quaternion (`pip install numpy-quaternion`)
-- tkinter (`apt-get install python3-tk) (only for visualised debugging`)
+- scipy (`pip install scipy`) -->
+<!-- - quaternion (`pip install numpy-quaternion`)
+- tkinter (`apt-get install python3-tk) (only for visualised debugging`) -->
+Python dependencies can be installed by conda:
+```sh
+conda env create -f environment.yml
+conda activate mujoco
+```
+
+To update the dependencies:
+```sh
+conda env update --f environment.yml
+```
 
 ## Setup Instructions
 
